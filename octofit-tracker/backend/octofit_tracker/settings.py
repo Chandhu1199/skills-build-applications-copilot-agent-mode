@@ -79,6 +79,8 @@ WSGI_APPLICATION = 'octofit_tracker.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+# Using djongo for MongoDB integration with Django ORM
+# djongo enables seamless MongoDB database support
 
 DATABASES = {
     'default': {
